@@ -1,0 +1,79 @@
+document.write('\x3c!-- Template Id \x3d 13,901 Template Name \x3d Banner Creative (Flash) -  In Page Multiples - [DFA] --\x3e\n\x3c!-- Copyright 2013 Google. All rights reserved --\x3e\n');function DCFlash(id,pVM){
+var swf = "http://s0.2mdn.net/2010121/yl-autumn-roi-728x90.swf";
+var gif = "http://s0.2mdn.net/2010121/yl-autumn-roi-728x90_backup.gif";
+var swfv = 8;
+var FWH = ' width="728" height="90" ';
+var url = escape("http://adclick.g.doubleclick.net/aclk?sa=L&ai=BMia8Cs2FUvbEF4zgkwTa4IGwDQAAAAAQASAAOABQzIOEpgJYmoznGmDJhtCGyKOQGYIBCWNhLWdvb2dsZbIBEHd3dy5ob3RwcmVzcy5jb23IAQnaAVxodHRwOi8vd3d3LmhvdHByZXNzLmNvbS9Db2xkcGxheS9uZXdzL1N0cmVhbS10aGUtU291bmR0cmFjay1pVGhlLUh1bmdlci1HYW1lc2kvMTA0NDIxODkuaHRtbKgDAeAEApoFGAjt7TMQmr_eMRjLyYqEASCajOcaKInYeqAGH-AGidh6&num=0&sig=AOD64_3YgNluySoeae1eXc4fckHBUDbMAA&client=&adurl=http://adserver.adtech.de/adlink/949/2112208/0/225/AdId%3D9620898%3BBnId%3D3%3Bitime%3D500489228%3Blink%3Dhttp://www.discovernorthernireland.com/myni/young.aspx");
+var wmode = "opaque";
+var bg = "same as SWF";
+var dcallowscriptaccess = "never";
+var openWindow = "false";
+var winW = 600;
+var winH = 400;
+var winL = 0;
+var winT = 0;
+var moviePath=swf.substring(0,swf.lastIndexOf("/"));
+var sm=new Array();
+sm[1] = "";
+sm[2] = "";
+sm[3] = "";
+sm[4] = "";
+sm[5] = "";
+var ct=new Array();
+ct[0]="http%3A//adserver.adtech.de/adlink%2F949%2F2112208%2F0%2F225%2FAdId%3D9620898%3BBnId%3D3%3Bitime%3D500489228%3Blink%3D";if(ct[0].substr(0,4)!="http"){ct[0]="";}         
+ct[1] = "";
+ct[2] = "";
+ct[3] = "";
+ct[4] = "";
+ct[5] = "";
+ct[6] = "";
+ct[7] = "";
+ct[8] = "";
+ct[9] = "";
+ct[10] = "";
+var fv='"clickTag='+url+'&clickTAG='+url+'&clicktag='+url+'&moviePath='+moviePath+'/'+'&moviepath='+moviePath+'/';
+for(i=1;i<sm.length;i++){if(sm[i]!=""){fv+="&submovie"+i+"="+escape(sm[i]);}}
+for(i=1;i<ct.length;i++){if(ct[i]!=""){if(ct[i].indexOf("http")==0){x=escape("http://adclick.g.doubleclick.net/aclk?sa=L&ai=BMia8Cs2FUvbEF4zgkwTa4IGwDQAAAAAQASAAOABQzIOEpgJYmoznGmDJhtCGyKOQGYIBCWNhLWdvb2dsZbIBEHd3dy5ob3RwcmVzcy5jb23IAQnaAVxodHRwOi8vd3d3LmhvdHByZXNzLmNvbS9Db2xkcGxheS9uZXdzL1N0cmVhbS10aGUtU291bmR0cmFjay1pVGhlLUh1bmdlci1HYW1lc2kvMTA0NDIxODkuaHRtbKgDAeAEApoFGAjt7TMQmr_eMRjLyYqEASCajOcaKInYeqAGH-AGidh6&num=0&sig=AOD64_3YgNluySoeae1eXc4fckHBUDbMAA&client=&adurl=http://adserver.adtech.de/adlink/949/2112208/0/225/AdId%3D9620898%3BBnId%3D3%3Bitime%3D500489228%3Blink%3D"+ct[i]);}else{x=escape(ct[i]);}fv+="&clickTag"+i+"="+x+"&clickTAG"+i+"="+x+"&clicktag"+i+"="+x;}}
+fv+='"';
+var bgo=(bg=="same as SWF")?"":'<param name="bgcolor" value="#'+bg+'">';
+var bge=(bg=="same as SWF")?"":' bgcolor="#'+bg+'"';
+function FSWin(){if((openWindow=="false")&&(id=="DCF0"))alert('openWindow is wrong.');if((openWindow=="center")&&window.screen){winL=Math.floor((screen.availWidth-winW)/2);winT=Math.floor((screen.availHeight-winH)/2);}window.open(unescape(url),id,"width="+winW+",height="+winH+",top="+winT+",left="+winL+",status=no,toolbar=no,menubar=no,location=no");}this.FSWin = FSWin;
+ua=navigator.userAgent;
+function isFlashOk(dsv,fp){
+	var t=[10.2,10.3,11.0,11.1,11.2,11.3,11.4,11.5,11.6];
+	return (dsv<11)?(fp>=dsv):(fp>=t[dsv-11]);
+}
+if(isFlashOk(swfv,pVM)&&(openWindow=="false"||(ua.indexOf("Mac")<0&&ua.indexOf("Opera")<0))){
+	var adcode='<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="'+id+'"'+FWH+'>'+
+		'<param name="movie" value="'+swf+'"><param name="flashvars" value='+fv+'><param name="quality" value="high"><param name="wmode" value="'+wmode+'"><param name="base" value="'+swf.substring(0,swf.lastIndexOf("/"))+'"><PARAM NAME="AllowScriptAccess" VALUE="'+dcallowscriptaccess+'">'+bgo+
+		'<embed src="'+swf+'" flashvars='+fv+bge+FWH+' type="application/x-shockwave-flash" quality="high" swliveconnect="true" wmode="'+wmode+'" name="'+id+'" base="'+swf.substring(0,swf.lastIndexOf("/"))+'" AllowScriptAccess="'+dcallowscriptaccess+'"></embed></object>';
+  document.write(adcode);
+}else{
+	document.write('<a target="_blank" href="'+unescape(url)+'"><img src="'+gif+'"'+FWH+'border="0" alt=""></a>');
+}}
+function gFV(){
+// code derived from SWFObject (http://code.google.com/p/swfobject/)
+var v=0;m=0,u="undefined",n=navigator,x="application/x-shockwave-flash",s="Shockwave Flash";
+if (typeof n.plugins != u && typeof n.plugins[s] == "object") {
+	d=n.plugins[s].description;
+	if (d && !(typeof n.mimeTypes != u && n.mimeTypes[x] && !n.mimeTypes[x].enabledPlugin)) { 
+		d=d.replace(/^.*\s+(\S+\s+\S+$)/, "$1");
+		v=parseInt(d.replace(/^(.*)\..*$/, "$1"));
+		m=parseInt(d.replace(/^.*\.(.*)\s.*$/, "$1"));
+	}
+}
+else if (typeof window.ActiveXObject != u) {
+	try {
+		var a=new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+		if (a) {
+			d=a.GetVariable("$version");
+			if (d) {d=d.split(" ")[1].split(",");v=parseInt(d[0]);m=parseInt(d[1]);}
+		}
+	}catch(e) {}
+}
+return parseFloat(v+"."+m);
+}
+var DCid=(isNaN("276997323"))?"DCF2":"DCF276997323";
+eval("function "+DCid+"_DoFSCommand(c,a){if(c=='openWindow')o"+DCid+".FSWin();}o"+DCid+"=new DCFlash('"+DCid+"',gFV());");
+//-->
+document.write('\n\x3cnoscript\x3e\x3ca target\x3d\x22_blank\x22 href\x3d\x22http://adclick.g.doubleclick.net/aclk?sa\x3dL\x26ai\x3dBMia8Cs2FUvbEF4zgkwTa4IGwDQAAAAAQASAAOABQzIOEpgJYmoznGmDJhtCGyKOQGYIBCWNhLWdvb2dsZbIBEHd3dy5ob3RwcmVzcy5jb23IAQnaAVxodHRwOi8vd3d3LmhvdHByZXNzLmNvbS9Db2xkcGxheS9uZXdzL1N0cmVhbS10aGUtU291bmR0cmFjay1pVGhlLUh1bmdlci1HYW1lc2kvMTA0NDIxODkuaHRtbKgDAeAEApoFGAjt7TMQmr_eMRjLyYqEASCajOcaKInYeqAGH-AGidh6\x26num\x3d0\x26sig\x3dAOD64_3YgNluySoeae1eXc4fckHBUDbMAA\x26client\x3d\x26adurl\x3dhttp://adserver.adtech.de/adlink/949/2112208/0/225/AdId%3D9620898%3BBnId%3D3%3Bitime%3D500489228%3Blink%3Dhttp://www.discovernorthernireland.com/myni/young.aspx\x22\x3e\x3cimg src\x3d\x22http://s0.2mdn.net/2010121/yl-autumn-roi-728x90_backup.gif\x22 width\x3d\x22728\x22 height\x3d\x2290\x22 border\x3d\x220\x22 alt\x3d\x22Click Here\x22/\x3e\x3c/a\x3e\x3c/noscript\x3e\n');

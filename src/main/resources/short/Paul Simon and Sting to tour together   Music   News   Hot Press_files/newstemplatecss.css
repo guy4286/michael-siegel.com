@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*  NEWS CONTENT CSS START*/
+/*
+/*
+#hpnewscontentwrapper { width:982px; height: 4000px; background-color:#FFFFFF; margin-left:100px;}
+*/
+#hpnewscontentwrapper { width:982px; height: 6000px; background-color:#FFFFFF; margin-left:100px;}
+#newstemplatewrapper { float:left; width:790px; height:auto; margin-top:15px; }
+#newscontentwrapper { float:left; width:445px; height:auto; margin:0px 30px 0px 15px }
+#newscontent {width:445px; height:auto; float:left; margin-top:15px }
+#topstoryheadline {width:445px; height:auto; float:left; margin-bottom:5px}
+#newsrgtcolcontentwrapper {width:300px; height:auto; float:right;}
+/*
+#spacer { width:300px; height:15px}
+*/
+
+#topstory {padding: 0px 0px 0px 0px; border-bottom:#333333 dotted 1px; float:left; width:445px; height:30px;}
+#topstorycontent {padding: 0px 0px 15px 0px; border-bottom:#333333 dotted 1px; float:left; width:445px; height:auto;}
+#topstorypic { float:left; width:445px; height:271px; margin-bottom:10px}
+
+#newsisland { width:300px; height:250px; display:block}
+/*
+#twitterfeed { width:300px; height:365px; margin-bottom:15px; margin-top:15px; display:block  }
+*/
+#twitterfeed { width:300px; height:380px; margin-bottom:15px; margin-top:15px; display:block  }
+
+p.topstory { font-family: Georgia; font-size:1.25em; display:inline; color: #FF0000; line-height:1em; font-style:italic; }
+.topstoryimage {margin-bottom:5px; width:445px; height: 271px; float:left}
+p.leadnewsheadline { font-family: Georgia; font-size:1.75em; display:inline; color: #FF0000; text-transform:uppercase; Text-decoration:none; line-height:0.85; margin-bottom:5px; }
+p.leadnews {font-family: Arial, Helvetica; font-size:0.95em; display:inline; color:#000; line-height:1.3; }
+
+p.latestnewstext {font-family: Arial, Helvetica; font-size:0.85em; display:inline; color:#000; vertical-align:top; line-height:1.25;}
+
+#latestnewsheader{ width:445px; height:35px; background-color:#CCCCCC; border-bottom:#000000 solid 5px; float:left; margin:10px 0px 10px 0px}
+.latestnewsheaderimage { margin-left:3px; margin-top:5px}
+
+a.latestnewsheadline { font-family: Georgia; font-size:1em; display:inline; color: #FF0000; text-transform:uppercase; line-height:1em; text-decoration:none }
+
+
+#latestnewsstorywrapper {width:445px; min-height:72px; margin-bottom:12px; padding:0 0 0 0; vertical-align:top; float:left }
+#latestnewsstorypic {width:60px; height:70px; margin-right:10px; padding:0 0 0 0; vertical-align:top; float:left }
+#latestnewsstorycontent {width:360px; min-height:70px; padding:0px 0 0 0; float:left }
+
+.latestnewsimage { margin-right:7px; border:#FF0000 solid 2px; float:left; width:60px; height:70px}
+a.readlatestnews{font-family: Georgia; font-size:0.85em; display:inline; color: #FF0000; text-transform:uppercase; Text-decoration:none; background-image:url(/images/redesign/readarrownews.gif); background-repeat:no-repeat; padding-left:14px; }
+
+
+/* NEWS CSS END*/
+
+
+/*  ========================================================================*/
+/*  COMMON CSS ALREADY IN MASTER CSS DELETE FROM HERE IF YOU WISH DONAL!!!!!*/
+/*  ========================================================================*/

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*  ARTICLE CONTENT CSS START*/
+#articletopsection {float:left; width:982px; }
+#articletopleftsection {float:left; width:790px; }
+
+#articletemplatewrapper { float:left; width:790px; height:auto; min-height:1225px; margin-top:15px; }
+#articlecontentwrapper { float:left; width:445px; height:auto; margin:0px 30px 0px 15px }
+#articlecontent {width:445px; height:auto; float:left; margin-top:15px }
+#articleheadline {width:445px; height:auto; float:left; margin-bottom:5px}
+#articlesubhead {width:445px; height:auto; float:left;margin-bottom:5px}
+#dateposted {padding-bottom:10px; border-bottom:#333333 dotted 1px; float:left; width:445px; height:auto; padding-bottom:5px;}
+
+p.articleheadline { font-family: Georgia; font-size:1.75em; display:inline; color: #006699; text-transform:uppercase; line-height:1em; }
+p.articlesubhead { font-family: Georgia; font-size:1em; display:inline; color: #333333; line-height:1em; font-style:italic; }
+p.articlebody {font-family: Arial, Helvetica; font-size:0.95em; color:#000; line-height:1.3;  }
+p.articlefirstpara {font-family: Arial, Helvetica; font-size:0.95em; display:inline; color:#000; line-height:1.3; font-weight:bold; }
+p.dateposted { font-family: Georgia; font-size:.75em; display:inline; color: #006699; line-height:1em; font-style:italic; }
+p.multiplepages {font-family: Georgia; font-size:0.85em; display:inline; color: #666; font-weight:bold }
+a.multiplepages {font-family: Georgia; font-size:0.85em; display:inline; color: #006699; text-decoration:none; font-weight:bold}
+.articleimage {margin-bottom:5px; width:445px; height: 271px}
+
+/*  NEW CSS FOR ARTICLE AUTHOR AND SHARE THIS*/
+#postedby {float:left; margin-top:10px; width:445px;}
+p.articleauthor { background-image:url(/images/redesign/hpflamesml.gif); font-family: Georgia; font-size:0.7em; display:inline; color: #006699; text-transform:uppercase; Text-decoration:none; background-repeat:no-repeat; padding-left:16px; vertical-align:baseline}
+#sharethis {margin-left:15px; display:inline}
+
+/*  ARTICLE CONTENT CSS END*/
+
+/*  ARTIST RELATED CONTENT CSS START*/
+#artitsrelatedcontentwrapper { width:300px; height:auto; float:right; border-bottom:#000000 solid 5px;}
+#articleisland { width:300px; height:250px; float:left; margin-bottom:15px;}
+#artistrelatedcontentheader { width:300px; height:35px; margin-bottom:15px; border-bottom:#000000 solid 5px; float:left}
+
+#photogalleries { float:left; height:auto; width:300px; margin-bottom:15px;}
+#photogalleryheader {float:left; height:25px; width:300px; border-top: #333333 dotted 1px; border-bottom: #333333 dotted 1px; padding-top:9px; margin-bottom:10px;}
+#photogalleryleft{width:90px; height:125px; float:left; margin-right:15px; margin-bottom:5px;}
+#photogallerycenter{width:90px; height:125px; float:left; margin-right:13px; margin-bottom:5px;}
+#photogalleryright{width:90px; height:125px; float:right; margin-bottom:5px;}
+#artistcontent { width:300px; height:auto;}
+
+#latestrelatedarticles {float:left; height:auto; width:300px;}
+#latestrelatedarticlesheader {float:left; height:25px; width:300px; border-top: #333333 dotted 1px; border-bottom: #333333 dotted 1px; padding-top:9px; margin-bottom:10px;}
+#mostrecentarticles {float:left; height:auto; width:300px; margin-bottom:15px;}
+#relatedarticle { margin-bottom:10px; float:left; width:300px}
+
+#latestrelatedvideos {float:left; height:auto; width:300px;}
+
+p.artistcontentheader {font-family: Georgia; font-size:0.9em; display:inline; font-weight:normal;color: #333;}
+p.mostrecentarticlebody {font-family: Arial, Helvetica; font-size:0.75em; display:inline; color:#000; line-height:1.15em; }
+a.mostrecentarticletitle {font-family: Georgia; font-size:.95em; display:inline; font-weight:normal;color: #006699; text-transform:uppercase; text-decoration:none; line-height:1.15em; !important;}
+a.photogallerytitle {font-family: Georgia; font-size:0.6em; display:inline; Text-decoration:none; font-weight:normal;color: #000; line-height:0.5;}
+
+
+/*  RELATED ARTICLE CSS START*/
+#relatedarticles { width:982px; height:auto; float:left; margin-top:15px; margin-bottom:15px;}
+#relatedarticlesheader { width:982px; height:25px; border-bottom:#000000 solid 3px; border-top:#000000 solid 3px; float:left;margin-bottom:15px; background-color:#FFFFFF}
+.relatedarticlesheader { margin-left:15px;}
+#relatedarticlesleftcol { margin-left:15px; margin-right:10px; width:300px; float:left}
+#relatedarticlesmidcol { width:300px; float:left; padding-left:15px; padding-right:15px; border-left: #333333 dotted 1px; border-right: #333333 dotted 1px;}
+#relatedarticlesrightcol {  margin-left:10px; margin-right:15px; width:300px; float:right}
+
+/*  Not Logged In CSS*/
+#notloggedin { width:445px; height:auto; float:left; margin-top:15px; border-top: #333333 dotted 1px; padding-top:10px}
+#join {width:445px; height:auto; float:left; margin-top:15px;}
+p.notloggedin {font-family: Arial, Helvetica; font-size:0.75em; display:inline; color:#000; line-height:1.15em; }
+a.articlelink {font-family: Arial, Helvetica; font-size:1em; display:inline; color:#006699; line-height:1.3; text-decoration:none}
+
+
+
+/*  ========================================================================*/
+/*  COMMON CSS ALREADY IN MASTER CSS DELETE FROM HERE IF YOU WISH DONAL!!!!!*/
+/*  ========================================================================*/
+

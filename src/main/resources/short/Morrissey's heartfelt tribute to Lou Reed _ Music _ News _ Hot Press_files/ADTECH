@@ -1,0 +1,12 @@
+document.write("<SCR"+"IPT language='JavaScript1.1' SRC=\"http://ad.doubleclick.net/ddm/adj/N1379.151086HOTPRESS.IE/B8810598.119263461;sz=728x90;click=http%3A//adserver.adtech.de/adlink%2F949%2F2112208%2F0%2F225%2FAdId%3D12755483%3BBnId%3D1%3Bitime%3D550251772%3Blink%3D;ord=550251772?\">\n");
+document.write("</SCR"+"IPT>\n");
+document.write("<NOSCRIPT>\n");
+document.write("<A HREF=\"http://adserver.adtech.de/adlink/949/2112208/0/225/AdId=12755483;BnId=1;itime=550251772;nodecode=yes;link=http://ad.doubleclick.net/ddm/jump/N1379.151086HOTPRESS.IE/B8810598.119263461;sz=728x90;ord=550251772?\">\n");
+document.write("<IMG SRC=\"http://ad.doubleclick.net/ddm/ad/N1379.151086HOTPRESS.IE/B8810598.119263461;sz=728x90;ord=550251772?\" BORDER=0 WIDTH=728 HEIGHT=90 ALT=\"Advertisement\"></A>\n");
+document.write("</NOSCRIPT>\n");
+
+var adcount_2112208_1_=new Image();
+adcount_2112208_1_.src="http://adserver.adtech.de/adcount/3.0/949/2112208/0/225/AdId=12755483;BnId=1;ct=3950652975;st=958;adcid=1;itime=550251772;reqtype=5;";
+document.write('<a href="http://adserver.adtech.de/?adlink/949/5197948/0/16/AdId=-3;BnId=0;itime=550251773;" target="_blank"><img src="http://aka-cdn-ns.adtech.de/images/Default_Size_16_1x1.gif" border="0" alt="AdTech Ad" width="1" height="1"/></a>');
+  
+ADTECH_getNumberOfAddonBanners = function() { return 0; }

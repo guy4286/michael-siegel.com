@@ -1,0 +1,1464 @@
+@charset "UTF-8";
+/* CSS Document */
+/*  Donal please note the body line height reset and the height on the wapper didn't know how to get this to just default to height of content to put in a precise pixel height for now!*/
+
+body { !important; line-height:0.85; padding:0; margin:0; background-color:#333333; background-image:url(/images/redesign/background1.gif)}
+/*  NEW BODY CLASS FOR TAKEOVER */
+body.takeover { !important; line-height:0.85; padding:0; margin:0; background-color:#333333; background-image:url(/images/redesign/background1.gif)}
+
+/*  NEW WRAPPER CLASS FOR TAKEOVER */
+#hptakeoverwrapper { width:982px; height:auto; background-color:#FFFFFF; margin:100px auto 0 auto; overflow:hidden}
+
+
+/*  FIX FOR AUTO MARGIN END!*/
+
+/*  FIXED MARGIN  TO CENTER PAGE*/
+#hpcontentwrapper { width:982px; height:auto; background-color:#FFFFFF; margin:0 auto 0 auto; overflow:hidden}
+/*  FIX FOR AUTO MARGIN END!*/
+
+#hpcentrewrapper { float:left; width:780px; height:auto; min-height:1225px; margin-top:15px; margin-left:10px; }
+
+/*  RIGHT HANDSIDE COLUMN CSS START*/
+
+p {font-family: Arial, Helvetica; font-size:0.95em; color:#000; line-height:1.3; }
+
+/*  Donal please note cheat to remove border on image link in firefox*/
+.pictureaslink {outline:none; text-decoration:none; -moz-outline-style: none; border: none}
+.smallpicture { width:90px; height:95px; outline:none; text-decoration:none; -moz-outline-style: none; border: none}
+a.imagelink {outline:none; text-decoration:none; -moz-outline-style: none;}
+a.imagelink:focus {	outline: 0;}
+
+table, td, select, textarea, input  {
+	font-family:	Arial, Verdana, Helvetica, sans-serif;
+	font-size:		11px;
+	margin-left:	auto;
+	margin-right:	auto;
+	line-height:	normal;
+}
+
+td.body_s {font-family: Arial, Helvetica; font-size:0.95em; color:#000; line-height:1.3;  }
+
+/* NEW HEADER CSS STARTs*/
+#hpmainheader { width:982px; height:150px; border-bottom:#000000 solid 5px; background-color: #ccc; float:left}
+
+#hplogo { width:170px; height:85px; background-image:url(images/hotpresslogo.gif); background-repeat:no-repeat; position:relative; top:10px; left:15px; float:left; margin-bottom:10px; margin-right:15px}
+#leaderboard { width:728px; height:90px;  position:relative; top:10px; right:35px; float:right; margin-bottom:10px;}
+
+#signup { width:952px; height:14px; position: relative; left:15px; overflow:hidden; float:left; }
+#forgotpass { position: relative; left:15px; overflow:hidden; float:left; margin:10px 10px 0px 5px; }
+#login { width:75px; height:17px; background-image:url(images/redesign/login.gif); background-repeat:no-repeat; position: relative; left:15px; margin-right:15px; margin-top:10px; float:left}
+#welcome { width:114px; height:17px; background-image:url(images/redesign/welcome.gif); background-repeat:no-repeat; position: relative; left:15px; margin-right:15px; margin-top:10px; float:left}
+
+#usernamelogin {position: relative; width: 55px; height: 18px; left:10px; overflow:hidden; float:left; margin-top:10px; }
+#username {	position: relative; width: 55px; height: 18px; left:10px; overflow:hidden; float:left; margin-top:10px; }
+#password {height:18px; width:70px; position: relative; left:15px; overflow:hidden; float:left; margin-right:10px; margin-top:10px;}
+#emailbutton {height:19px; position: relative; left:15px; overflow:hidden; float:left; margin-top:10px; margin-right:10px;}
+#sitemapbutton {height:19px; position: relative; left:15px; overflow:hidden; float:left; margin-top:10px;}
+#myprofile {position: relative; width: 65px; height: 18px; left:10px; overflow:hidden; float:left; margin-top:10px; }
+
+#searchlogin {height:18px; width:100px; position: relative; left:15px; overflow:hidden; float:left; margin-right:10px; margin-top:10px;}
+#searchbuttonlogin {height:19px; position: relative; left:15px; overflow:hidden; float:left; margin-top:10px;}
+	
+#searchpremium {height:18px; width:100px; position: relative; left:15px; overflow:hidden; float:left; margin-right:10px; margin-top:10px;}
+#searchbuttonpremium {height:19px; position: relative; left:15px; overflow:hidden; float:left; margin-top:10px; margin-right:10px;}
+
+#searchnonpremium {height:18px; width:100px; position: relative; left:15px; overflow:hidden; float:left; margin-right:10px; margin-top:10px;}
+#searchbuttonnonpremium {height:19px; position: relative; left:15px; overflow:hidden; float:left; margin-top:10px;margin-right:10px;}
+
+#searchrenew {height:18px; width:100px; position: relative; left:15px; overflow:hidden; float:left; margin-right:10px; margin-top:10px;}
+#searchbuttonrenew {height:19px; position: relative; left:15px; overflow:hidden; float:left; margin-top:10px;margin-right:10px;}
+
+input.loginbutton {float:left;height:19px; width:42px; margin:2px 5px 0px 13px}
+// input.loginbutton { font-size:0.65em; }
+
+input.loginfield { font-size:0.65em; }
+
+#loginbutton {width:42px; height:19px; position: relative; left:15px; float:left; margin-right:15px; margin-top:10px;}
+#logoutbutton {width:42px; height:19px; position: relative; left:15px; float:left; margin-right:15px; margin-top:10px;}
+#upgrade {width:48px; height:19px; position: relative; left:15px; float:left; margin-right:15px; margin-top:10px;}
+#renew {width:42px; height:19px; position: relative; left:15px; float:left; margin-right:15px; margin-top:10px;}
+
+
+// input { width:70px; height:17px; display:inline; padding: 0px 0px 0px 0px; font-size:0.65em;  }
+input { width:70px; height:17px; display:inline; padding: 0px 0px 0px 0px; font-size:1em;  }
+input.searchbox { width:100px; height:17px; display:inline; padding: 0px 0px 0px 0px; font-size:0.65em; }
+input.buttongo { width:70px; height:25px; display:inline; padding: 0px 0px 0px 0px; font-size:1em;  }
+
+input.readerspoll { width:400px; height:17px; display:inline; padding: 0px 0px 0px 0px; font-size:0.65em;  }
+
+#forgotpass a { text-decoration:none; color:#000000; display:inline}
+#forgotpass a:active {text-decoration:none; color:#000000; display:inline}
+#forgotpass a:focus {text-decoration:none; color:#000000; display:inline}
+#forgotpass p{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:0.6em; display:inline}
+
+#signup a { text-decoration:none; color:#000000; font-weight:bold; display:inline}
+#signup a:active {text-decoration:none; color:#000000; font-weight:bold; display:inline}
+#signup a:focus {text-decoration:none; color:#000000; font-weight:bold; display:inline}
+
+#username p { font-family:Arial, Helvetica, sans-serif; font-size:0.85em; display:inline}
+#myprofile p { font-family:Arial, Helvetica, sans-serif; font-size:0.65em; display:inline}
+#signup p{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:0.5em; text-transform:uppercase; display:inline}
+
+/*
+#facebookicon {height:32px; position: relative; left:410px; overflow:hidden; float:left; margin-top:0px;}
+#twittericon {height:32px; position: relative; left:430px; overflow:hidden; float:left; margin-top:0px;}
+*/
+#facebooklogin {float:right; margin-top:0px; margin-right:20px}
+#facebookicon {height:32px; float:right; margin-top:0px; margin-right:20px}
+#twittericon {height:32px; float:right; margin-top:0px; margin-right:10px}
+
+/*  HEADER CSS END*/
+
+
+/*  RIGHT HANDSIDE COLUMN CSS START*/
+/*
+#hprighthandsidecontent { width:165px; float:right; margin-top:15px; }
+*/
+#leftandcentre {width:790px; border:#000000 solid 2px; }
+#hprighthandsidecontent { width:165px; float:left; vertical-align:top; margin-top:15px; margin-left: 15px; position:relative; }
+#hprighthandsidecontent2 { width:165px; float:left; margin-top:15px; margin-left: 15px}
+#hpcover { width:165px;}
+#skyscraper { height:600px; margin-top:15px; margin-bottom:15px; align="center"}
+#button { width:165px; margin-bottom:15px}
+
+/*  RIGHT HANDSIDE COLUMN CSS END*/
+
+#homepagetopsection {float:left; width:982px; }
+#homepagetopleftsection {float:left; width:790px}
+#homepagetoprightsection {float:left; width:165px}
+
+/*  LEAD NEWS CSS START*/
+#homepagenewscontent { float:left; width:790px; margin-top:15px;}
+#homepageleadnews {width:460px; height:475px; border-bottom:#000000 solid 5px; float:left}
+#homepagemorenews {width:300px; height:438px; float:left; overflow:auto}
+#spacer {width:15px; height:475px; border-bottom:#000000 solid 5px; float:left}
+#homepagemorenewsstory {width:275px; height:70px; margin-bottom:12px; padding:0 0 0 0; vertical-align:top; }
+#clickformorenews {width:275px; height:28px; float:left; margin-top:3px; border-top:#333333 dotted 1px; border-bottom:#000000 solid 5px; padding-top:5px}
+
+.leadnewsimage {margin-bottom:5px; width:460px; height: 280px}
+.morenewsimage { margin-right:7px; border:#FF0000 solid 2px; float:left; width:60px; height:70px}
+.morenewsheader { margin-bottom:7px; outline:none; text-decoration:none; -moz-outline-style: none;}
+a.leadnewsheadline { font-family: Georgia; font-size:1.75em; display:inline; color: #FF0000; text-transform:uppercase; Text-decoration:none; line-height:0.85; margin-bottom:5px; }
+a.readmorenews{font-family: Georgia; font-size:0.85em; display:inline; color: #FF0000; text-transform:uppercase; Text-decoration:none; background-image:url(/images/redesign/readarrownews.gif); background-repeat:no-repeat; padding-left:14px; }
+p.leadnews {font-family: Arial, Helvetica; font-size:0.95em; display:inline; color:#000; line-height:1.3; }
+p.homepageleadnews {font-family: Arial, Helvetica; font-size:0.95em; display:inline; color:#000; line-height:1.3; }
+p.morenewstext {font-family: Arial, Helvetica; font-size:0.85em; display:inline; color:#000; vertical-align:top; line-height:1.25;}
+.morenewssubject {font-family: Georgia; font-size:1em; display:inline;  color: #FF0000;font-weight: bold; vertical-align:top; line-height:1;}
+.rssfeed {margin-bottom:7px; outline:none; text-decoration:none; -moz-outline-style: none; border: none}
+/*  LEAD NEWS CSS END*/
+
+
+/*  BLOGS CSS START*/
+#hpblogsandisland { width:775px; height:250px; margin-top:15px; margin-left:15px;float:left}
+#blogroll {width:460px; height:245px; border-bottom:#000000 solid 5px; float:left; margin-right:15px;}
+#island1   {width:300px; height:250px; float:right}
+#blogrollheader {width:460px; height:35px; border-bottom:#000000 solid 5px; float:left}
+#blogleftcol { width:225px; height:203px; float:left; margin-top:7px;}
+#blogrightcol { width:225px; height:203px; float:right; margin-top:7px;}
+#blogpost { width:225px; height:40px; margin-bottom:10px; float:left; vertical-align:top}
+#blogpost2 { width:225px; height:120px;  float:left; vertical-align:top}
+a.blogname { font-family: Georgia; font-size:0.7em; display:inline; color: #9900CC; text-transform:uppercase; Text-decoration:none; font-weight:bold; vertical-align:top; line-height:1 }
+a.blogname2 { font-family: Georgia; font-size:0.7em; margin-top: 10px;display:inline; color: #9900CC; text-transform:uppercase; Text-decoration:none; font-weight:bold; vertical-align:top; line-height:1;  }
+a.readmore{font-family: Georgia; font-size:2.1em; display:inline; color: #999999; text-transform:uppercase; Text-decoration:none; background-image:url(/images/redesign/readarrow.gif); background-repeat:no-repeat; padding-left:14px; }
+.bloggerpic { height:38px; border:#000000 solid 1px; margin-right:10px; float:left}
+.bloggerpic2 { height:150px; border:#000000 solid 1px; margin-right:10px; float:left}
+.blogposttitle {font-weight:bold; vertical-align:top;}
+p.blogposttext {font-family: Arial, Helvetica; font-size:0.7em; display:inline; color:#000; vertical-align:top; line-height:1}
+/*  BLOGS CSS END*/
+
+/*  BLOGS CSS START*/
+#blogtemplatewrapper { float:left; width:790px; height:auto; margin-top:15px; }
+#blogcontentwrapper { float:left; width:770px; height:auto; margin:0px 30px 0px 15px }
+
+#hpblogsandisland { width:775px; height:250px; margin-top:15px; margin-left:15px;float:left}
+
+#blogroll {width:460px; height:245px; border-bottom:#000000 solid 5px; float:left}
+#island {width:300px; height:250px; float:left; }
+#blogrollheader {width:460px; height:35px; border-bottom:#000000 solid 5px; float:left}
+#blogleftcol { width:225px; height:203px; float:left; margin-top:7px;}
+#blogrightcol { width:225px; height:203px; float:right; margin-top:7px;}
+#blogrightcol2 { width:225px; height:203px; float:right; margin-top:7px;}
+#blogpost { width:225px; height:40px; margin-bottom:10px; float:left; vertical-align:top}
+#blogpost2 { width:225px; height:120px;  float:left; vertical-align:top}
+a.blogname { font-family: Georgia; font-size:0.7em; display:inline; color: #9900CC; text-transform:uppercase; Text-decoration:none; font-weight:bold; vertical-align:top; line-height:1 }
+a.blogname2 { font-family: Georgia; font-size:0.7em; margin-top: 10px;display:inline; color: #9900CC; text-transform:uppercase; Text-decoration:none; font-weight:bold; vertical-align:top; line-height:1;  }
+a.readmore{font-family: Georgia; font-size:2.1em; display:inline; color: #999999; text-transform:uppercase; Text-decoration:none; background-image:url(images/readarrow.gif); background-repeat:no-repeat; padding-left:14px; }
+a.imagelink {outline:none; text-decoration:none; -moz-outline-style: none;}
+.bloggerpic { height:38px; border:#000000 solid 1px; margin-right:10px; float:left}
+.bloggerpic2 { height:150px; border:#000000 solid 1px; margin-right:10px; float:left}
+.blogposttitle {font-weight:bold; vertical-align:top;}
+p.blogposttext {font-family: Arial, Helvetica; font-size:0.7em; display:inline; color:#000; vertical-align:top; line-height:1}
+p.blogposttext2 {font-family: Arial, Helvetica; font-size:0.7em; display:inline; color:#000; vertical-align:top; line-height:1}
+
+/*  BLOGS CSS END*/
+
+/*  FEATURES CSS START*/
+#hpfeaturescontent {width:300px; margin-top:15px; margin-left:15px;margin-right:10px; float:left}
+#feature {width:300px; height:240px; border-bottom:#000000 solid 5px; margin-bottom:10px;}
+#lastfeature {width:300px; height:245px; margin-bottom:10px;}
+#featurepic{width:300px; height:130px; margin-bottom:7px;}
+a.featuresreadmore{font-family: Georgia; font-size:1em; display:inline; color: #999999; text-transform:uppercase; Text-decoration:none; background-image:url(/images/redesign/readarrow.gif); background-repeat:no-repeat; padding-left:14px;   }
+p.featuretext {font-family: Arial, Helvetica; font-size:0.75em; display:inline; color:#000; line-height:1.4; }
+
+/*  CSS FOR VARIOUS FEATURE CONTENT SECTIONS*/
+a.headlinefeature{ font-family: Georgia; font-size:1.1em; display:inline; color: #CC6600; text-transform:uppercase; Text-decoration:none; line-height:1;}
+a.headlinemusic{ font-family: Georgia; font-size:1.1em; display:inline; color: #006699; text-transform:uppercase; Text-decoration:none; line-height:1;}
+a.headlinemultimedia{ font-family: Georgia; font-size:1.1em; display:inline; color: #669900; text-transform:uppercase; Text-decoration:none; line-height:1;}
+a.headlinepolitics{ font-family: Georgia; font-size:1.1em; display:inline; color: #660000; text-transform:uppercase; Text-decoration:none; line-height:1;}
+/*  FEATURES CSS END*/
+
+/*  CENTER COLUMN CSS START*/
+#hpcentercolumn { width:150px; margin-right:15px; margin-top:15px; float:left}
+#hpcentercolumncontent { width:150px; height:240px; margin-bottom: 15px;}
+/*  CENTER COLUMN CSS END*/
+
+
+/*  MORE CONTENT CSS START*/
+#hpmorecontent {width:982px; height:600px; float:left}
+#morecontentheader {width:982px; height:40px; border-bottom:#000000 solid 3px; border-top:#000000 solid 3px; float:left;margin-bottom:15px; background-color:#FFFFFF}
+#morecontentleftcol { width:300px; height:530px; margin-right:15px; margin-left:15px;float:left}
+#morecontentmidcol {width:315px; height:530px; float:left; border-right:#000000 dotted 1px;}
+#morecontentrightcol {width:300px; height:530px; float:left; margin-left:15px;}
+#island2 {width:300px; height:250px; margin-bottom:15px }
+#archiveheader {width:300px; height:35px; border-bottom:#000000 solid 5px; margin-bottom:15px; float:left}
+#archivepic { width:140px; height:170px; float:left; margin-right:15px; border: none}
+#archivecontent { width:145px; height:200px; float:left }
+#shoptitle { width:300px; height:30px;  border-bottom:#000000 dotted 1px; float:left; margin-bottom:10px }
+#shopcontent { width:300px; height:104px; float:left; margin-bottom:10px; border-bottom:#000000 dotted 1px; }
+
+.archivepic {outline:none; text-decoration:none; -moz-outline-style: none; border: none; height:170px; width: 140px}
+
+p.archivepost{font-family: Georgia, Arial, Helvetica; font-size:0.8em; display:inline; color:#000; vertical-align:top; line-height:1.25;}
+a.archivetitle {font-family: Georgia; font-size:1em; display:inline; text-transform:uppercase; Text-decoration:none; font-weight:normal;color: #666666; vertical-align:top; line-height:1.2;}
+a.archivereadmore{font-family: Georgia; font-size:1em; display:inline; color: #666666; text-transform:uppercase; Text-decoration:none; background-image:url(/images/redesign/readarrow.gif); background-repeat:no-repeat; padding-left:14px; line-height:2;  }
+.morecontentheaderimage{ padding-left:15px}
+a.shopheadline {font-family: Georgia; font-size:1.4em; display:inline; text-transform: capitalize; Text-decoration:none; font-weight:normal;color: #333333; vertical-align:top;}
+
+/*   MORE CONTENT TABS CSS*/
+#morecontenttabs { width:299px; height:27px; float:left; text-decoration:none; display:block; border-bottom: 5px solid #333333;}
+#tabscontentcontainer {width:301px; float:left; margin-top:10px}
+#morecontenttabs a {text-decoration:none; display:block; }
+#morecontenttabs li { float:left}
+
+#tabscontent { width:300px; }
+#tabscontentitem { width:300px; height:104px; float:left; margin-bottom:10px; border-bottom:#000000 dotted 1px; }
+#morecontentpicture { margin-right:10px; border:none; float:left;}
+a.tablinks { font-family: Georgia; font-size:0.8em; color: #FFFFFF; text-align:center;}
+a.unselectedtablinks { font-family: Georgia; font-size:0.75em; color: #000000; text-align:center;}
+
+a.readmoresmall{font-family: Georgia; font-size:0.9em; display:inline; color: #666666; text-transform:uppercase; Text-decoration:none; background-image:url(/images/redesign/readarrowsmall.gif); background-repeat:no-repeat; padding-left:14px; vertical-align:baseline }
+p.morecontenttext{font-family: Georgia, Arial, Helvetica; font-size:0.8em; display:inline; color:#000; vertical-align:top; line-height:1.2;}
+a.morecontentheadline {font-family: Georgia; font-size:1em; display:inline; text-transform:uppercase; Text-decoration:none; font-weight:normal;color: #666666; vertical-align:top; line-height:1.2;}
+
+ul.norm { width: 660px; list-style: disc; margin:0; padding:0 }
+
+ul.tabs {
+	width: 301px;
+	height: 27px;
+	list-style: none;
+	margin: 0;
+	padding:0;
+	overflow:hidden
+	font-family: Georgia;
+	font-size: 0.65em;
+	color: #000000;
+	text-align: center;
+}
+
+ul.tabs li a {
+	text-decoration: none;
+	color: #000000;
+	width: 73px;
+	height: 27px;
+	list-style: none;
+	overflow:hidden;
+	background-image: url(/images/redesign/morecontenttabsbkg-73wide.gif);
+	background-position: 0 -27px;
+	background-repeat: no-repeat; 
+	margin-right:2px;
+	padding-top:10px;
+}
+
+ul.tabs li a:hover {
+	text-decoration: none;
+}
+
+
+a#selectedtab {
+background-image: url(/images/redesign/morecontenttabsbkg.gif); 
+background-repeat:no-repeat; 
+background-position: 0 0px;
+height:27px; width:72px;
+margin-right:3px;
+padding-top:8px;}
+#morecontenttabs #selectedtab:hover {background-position: 0 0;}
+
+a#unselectedtab {
+background-image: url(/images/redesign/morecontenttabsbkg.gif); 
+background-repeat:no-repeat; 
+background-position: 0 -27px;
+height:27px; width:72px;
+margin-right:2px;
+padding-top:10px;}
+#morecontenttabs #unselectedtab:hover {background-position: 0 -54;}
+
+
+/*  MORE CONTENT CSS END*/
+
+/*  FOOTER CSS STARTS*/
+#hpfooter { width:982px; height:500px; background-image:url(/images/redesign/footerflame.gif); background-repeat:no-repeat; background-position:bottom; border-top:#000000 solid 5px; float:left; background-color:#CCCCCC; }
+
+#footerleftcol { margin: 15px 10px 0px 15px; width:300px; float:left; height:auto;}
+#footermidcol{ width:300px; min-height:375px; float:left; padding-left:15px; padding-right:15px; border-left: #333333 dotted 1px; border-right: #333333 dotted 1px; margin-top:15px;}
+#footerrightcol {  margin:15px 15px 0px 10px; width:300px; float:right}
+#footerheading { width:300px; height:25px; border-bottom: #333333 dotted 1px; float:left; margin-bottom:10px;}
+#footerlinks {width:300px; height: auto; min-height:70px; float:left; margin-bottom:20px; display:block}
+#footertext {width:300px; height:auto; float:left; margin-bottom:20px;}
+#facebookfooter { width:125px; float:left; margin-right:30px}
+#twittterfooter { width:125px; float:left;}
+#smallprint {width:982px; display:block; height:30px; margin-top:455px}
+#mainfooterlinks {width:300px; height: auto; min-height:265px; float:left; margin-bottom:20px; display:block}
+
+p.footerheader {font-family: Georgia, Arial, Helvetica; font-size:1em; display:inline; color:#006699; vertical-align:top; line-height:1.2;}
+p.footertext {font-family: Arial, Helvetica; font-size:0.75em; display:inline; color:#000; line-height:1em; text-decoration:none;}
+p.smallprint {font-family: Arial, Helvetica; font-size:0.65em; display:inline; color:#000; line-height:1em; text-decoration:none;}
+#footerlinks  a {font-family: Arial, Helvetica; font-size:0.75em; display:inline; color:#000; line-height:1em; text-decoration:none;}
+#mainfooterlinks  a {font-family: Arial, Helvetica; font-size:0.75em; display:inline; color:#000; line-height:1em; text-decoration:none;}
+#footertext  a {font-family: Arial, Helvetica; font-size:1em; display:inline; color:#000; line-height:1em; text-decoration:none;}
+
+#footertext a:visited {text-decoration:none; color:#000000; font-size:1em}
+#footertext a:hover {text-decoration:none; color:#000000; font-size:1em}
+#footertext a:active {text-decoration:none; color:#000000; font-size:1em}
+
+#smallprint a {text-decoration:none; color:#000000}
+#smallprint a:visited {text-decoration:none; color:#000000}
+#smallprint a:active {text-decoration:none; color:#000000}
+/*  FOOTER CSS ENDS*/
+
+
+/* RIGHT COLUMN NAV START - CSS STYLES FOR SLIDER BELOW I NEED TO EDIT THIS FURTHER AS THE BULLET POINTS ARE IN THE WRONG PLACE */
+#rightcolumn { width:300px; height:auto; margin-top:15px; float:left}
+#homepagepanel { width:300px; height:381px; margin-bottom:15px;  }
+
+#competitions { width:300px; height:328px; margin-bottom:15px;}
+#competitionsheader{ width:300px; height:35px; border-bottom:#000000 solid 5px; margin-bottom:10px;}
+#competitionslider {  height:278px;}
+
+#mostread { width:300px;; height:auto}
+#mostreadheader {width:300px; height:35px; border-bottom:#000000 solid 5px; margin-bottom:10px;}
+#mostreadpost {width:300px; height:auto; border-bottom: #999999 dotted 1px; padding-top:5px; padding-bottom:5px; }
+/*
+#multimediapostleft{width:90px; height:130px; float:left; margin-right:15px; margin-bottom:5px;!important;}
+#multimediapostcenter{width:90px; height:130px; float:left; margin-right:13px; margin-bottom:5px;!important;}
+#multimediapostright{width:90px; height:130px; float:right; margin-bottom:5px; !important;}
+#multimediapostleft{width:90px; float:left; margin-right:15px; margin-bottom:5px;!important;}
+#multimediapostcenter{width:90px; float:left; margin-right:13px; margin-bottom:5px;!important;}
+#multimediapostright{width:90px; float:right; margin-bottom:5px; !important;}
+#multimediapostleft{width:90px; float:left; margin-right:5px; margin-bottom:5px;!important;}
+#multimediapostcenter{width:90px; float:left; margin-right:5px; margin-bottom:5px;!important;}
+#multimediapostright{width:90px; float:right; margin-bottom:5px; !important;}
+
+#multimedia { width:300px;}
+#multimediaheader {width:300px; height:35px; border-bottom:#000000 solid 5px; margin-bottom:10px; margin-top:10px}
+#multimediaposts { width:380px; height:auto;}
+*/
+#multimediapostleft{width:90px; float:left; margin-right:15px; margin-bottom:5px;!important;}
+#multimediapostcenter{width:90px; float:left; margin-right:13px; margin-bottom:5px;!important;}
+#multimediapostright{width:90px; float:right; margin-bottom:5px; !important;}
+
+#multimedia { width:300px;}
+#multimediaheader {width:300px; height:35px; border-bottom:#000000 solid 5px; margin-bottom:10px; margin-top:10px}
+#multimediaposts { width:300px; height:auto;}
+
+
+a.readmoresmall{font-family: Georgia; font-size:0.9em; display:inline; color: #666666; text-transform:uppercase; Text-decoration:none; background-image:url(/images/redesign/readarrowsmall.gif); background-repeat:no-repeat; padding-left:14px; vertical-align:baseline }
+p.mostreadcomment{font-family: Georgia, Arial, Helvetica; font-size:0.8em; display:inline; color:#000; vertical-align:top; line-height:1.2;}
+a.mostreadtitle {font-family: Georgia; font-size:.75em; display:inline; text-transform: capitalize; Text-decoration:none; font-weight:normal;color: #333333; vertical-align:top; line-height:1.2; !important;}
+a.multimediatitle {font-family: Georgia; font-size:0.575em; display:inline; Text-decoration:none; font-weight:normal;color: #000; line-height:0.4; !important;}
+a.mostreadtitle:visited {font-family: Georgia; font-size:.75em; display:inline; text-transform: capitalize; Text-decoration:none; font-weight:normal;color: #333333; vertical-align:top; line-height:1.2; !important;}
+
+/* DONAL I've included CSS styles for jQuery Slider here */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:89;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline; text-decoration:none !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold; text-decoration:none;
+}
+
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+
+#slider {
+	position:relative;
+    width:300px;
+    height:278px;
+    background:url(/images/redesign/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:-42px;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+/*
+	background:url(/images/redesign/bullets.png) no-repeat;
+*/
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(/images/redesign/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nivo-caption a { 
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
+
+/*  RIGHT COLUMN CSS END*/
+
+.imgteaser {
+	width:150px;
+	height:240px;
+	margin-bottom: 15px;
+	/*
+	margin: 0;
+	*/
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+.imgteaser a {
+	text-decoration: none;
+	float: left;
+}
+.imgteaser a:hover {
+	cursor: pointer;
+}
+
+.imgteaser a img {
+	float: left;
+	margin: 0;
+	border: none;
+	padding: 0px;
+/*
+	background: #fff;
+	border: 1px solid #ddd;
+*/
+}
+
+.imgteaser a .more {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	font-size: 1.2em;
+	color: #fff;
+	background: #000;
+	padding: 5px 10px;
+	filter:alpha(opacity=65);
+	opacity:.65;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)"; /*--IE 8 Transparency--*/
+}
+/*
+.imgteaser a:hover .desc{
+	display: block;
+	font-family: Arial, Helvetica;
+	font-size: .8em;
+	padding: 0px 0;
+	background: #111;
+	filter:alpha(opacity=75);
+	opacity:.75;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	color: #fff;
+	position: absolute;
+	bottom: 11px;
+	left: 11px;
+	padding: 1px;
+	margin: 0;
+	width: 100px;
+	border-top: 1px solid #999;
+}
+*/
+
+.imgteaser a:hover .desc{
+	display: block;
+	font-family: Arial, Helvetica;
+	font-size:0.75em;
+	line-height:1.4;
+	padding: 0px 0;
+	background: #111;
+	filter:alpha(opacity=75);
+	opacity:.75;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /*--IE 8 Transparency--*/
+	color: #fff;
+	position: absolute;
+	bottom: 1px;
+	left: 1px;
+	padding: 4px;
+	margin: 0;
+/*
+	width: 100px;
+*/
+	border-top: 1px solid #999;
+}
+
+.imgteaser a:hover .desc strong {
+	display: block;
+	margin-bottom: 5px;
+	font-size:1.5em;
+}
+
+.imgteaser a .desc {	display: none; }
+.imgteaser a:hover .more { visibility: hidden;}
+
+
+p.formbody {font-family: Arial, Helvetica; font-size:0.95em; color:#000; line-height:0.4;  }
+
+/* Styles from Old Site */
+
+.articleBody {
+	font-family:		Arial, Helvetica, sans-serif;
+	font-weight:		normal;
+	font-size:			13px;
+}
+
+/* Shop stuff */
+#shoptemplatewrapper { float:left; width:780px; height:auto; min-height:1225px; margin-top:15px; margin-left:10px }
+#shopimage {float:left; width:780px; height:100px;}
+#shopblurb {float:left; width:780px; height:85px;  padding:10px 0 10px 0; margin:15px 0 15px 0; border-bottom:#666666 dotted 1px; }
+#shopfeatureitem {float:left; width:780px; height:auto; border-bottom:#000 solid 5px; margin-bottom:15px}
+#featureditempic {float:left; width:460px; height:280px; margin-right:15px}
+#featureditemtext {float:left; width:305px; height:auto; margin-bottom:15px}
+#featureditem {padding: 0px 0px 0px 0px; border-bottom:#333333 dotted 1px; float:left; width:305px; height:30px;}
+#featureditembody {padding: 10px 0px 10px 0px; float:left; width:305px; height:auto;}
+#featureditemorder {width:305px; height:22px; float:left; border-top:#666666 dotted 1px; border-bottom:#666666 dotted 1px; padding-top:5px; margin-top:5px; }
+
+#shopleftcol { width:250px; height:auto; margin: 0 15px 15px 0; float:left;}
+#shopmidcol {width:250px; height:auto; float:left; margin: 0 0 15px 0;}
+#shoprightcol {width:250px; height:auto; margin: 0 0 15px 15px; float:left}
+#shopitempic {width:250px; height:152px; float:left; margin-bottom:15px;}
+#shopitemname {width:250px; height:20px; float:left; border-top:#666666 dotted 1px; padding-top:5px}
+#shopitemdetail {width:250px; height:225px; float:left;}
+#shoporderitem { width:250px; height:22px; float:left; border-top:#666666 dotted 1px; border-bottom:#666666 dotted 1px; padding-top:5px; margin-top:5px; margin-bottom:15px}
+
+p.shopopening { display:inline;font-family: Georgia; font-size:1em; font-style:italic; color: #333333; line-height:1.25em;}
+p.featureditemhead { font-family: Georgia; font-size:1.25em; display:inline; color: #006699; line-height:1em; font-style:italic; }
+p.featureditemtext {font-family: Arial, Helvetica; font-size:0.95em; display:inline; color:#000; line-height:1.3; }
+p.shopitemtext {font-family: Arial, Helvetica; font-size:13px; display:inline; color:#000; vertical-align:top; line-height:1.25em;}
+p.shopitemtitle { font-family: Georgia; font-size:13px; display:inline; color: #006699; text-transform:uppercase; line-height:1em; text-decoration:none }
+
+a.shoporderitem { font-family: Georgia; font-size:1em; display:inline; color: #006699; text-transform:capitalize; line-height:1em; text-decoration:none; font-style:italic }
+a.subheadlink { display:inline;font-family: Georgia; font-size:1em; font-style:italic; color: #333333; line-height:1.25em; text-decoration:none}
+a.subheadlink:hover { color: #006699;}
+a.subheadlink:visited { color: #006699;}
+
+h1.featureditemtitleb { font-family: Georgia; font-size:1em; display:inline; color: #006699; text-transform:uppercase; line-height:1em; text-decoration:none; font-weight:bold; }
+
+h1.featureditemtitle {font-family: Arial, Helvetica; font-size:0.95em; display:inline; color:#000; line-height:1.3; font-weight:bold; text-transform:uppercase }
+
+.shopitem { width:250px; height:152px}
+
+/* End of shop stuff */
+
+#archivetemplatewrapper { float:left; width:790px; height:auto; margin-top:15px; }
+#archivecontentwrapper { float:left; width:700px; height:auto; margin:0px 30px 0px 15px }
+#archivecontent {width:700px; height:auto; float:left; margin-top:15px }
+p.archivebody {font-family: Arial, Helvetica; font-size:0.95em; color:#000; line-height:1.3;  }
+
+td.archivebody {font-family: Arial, Helvetica; font-size:0.95em; color:#000; line-height:1.3;  }
+
+#archivelisttemplatewrapper { float:left; width:740px; height:auto; margin-top:15px; }
+#archivelistcontentwrapper { float:left; width:740px; height:auto; margin:0px 30px 0px 15px }
+#archivelistcontent {width:740px; height:auto; float:left; margin-top:15px }
+
+#industrypagecontainer {float:left; width:780px; margin-left: 10px}
+
+.industrySearchBox {
+	background:		url(/images/redesign/industry-search-box.jpg) no-repeat;
+	vertical-align:	top;
+}
+
+.industrySearchTextBox {
+	position:	relative;
+	left:		140px;
+	top:		32px
+}
+
+.industryCategoryTextBox {
+	position:	relative;
+	left:		140px;
+	top:		84px
+}
+
+.industrySubsectionTextBox {
+	position:	relative;
+	left:		140px;
+	top:		104px
+}
+
+a.musicdirWebEmailLink {
+	color:				#999966;
+	text-decoration:	none;
+}
+
+a.musicdirAdvWebEmailLink {
+	font-family:		Helvetica, Arial, sans-serif;
+	font-size:			10pt;
+	font-weight:		bold;
+	color:				#000000;
+	text-decoration:	none;
+}
+
+.musicdirAdvCompName {
+	font-family:		Helvetica, Arial, sans-serif;
+	font-size:			12pt;
+	font-weight:		bold;
+	color:				#999966;
+	line-height:		normal;
+}
+
+.musicdirAdvTelWebEmailPrompt {
+	font-family:		Helvetica, Arial, sans-serif;
+	font-size:			9pt;
+	font-weight:		bold;
+	color:				#666666;
+}
+
+.musicdirAdvTelWebEmail {
+	font-family:		Helvetica, Arial, sans-serif;
+	font-size:			9pt;
+	font-weight:		bold;
+}
+
+.musicdirAdvCompInfo {
+	font-family:		Helvetica, Arial, sans-serif;
+	font-size:			9pt;
+}
+
+#movieloungetemplatewrapper { float:left; width:790px; height:auto; min-height:1860px; margin-top:15px; }
+#movieloungecontentwrapper { float:left; width:700px; height:auto; margin:0px 30px 0px 15px }
+#movieloungecontent {width:700px; height:auto; float:left; margin-top:15px }
+
+input.movielounge { width:400px; height:17px; display:inline; padding: 0px 0px 0px 0px; font-size:0.65em;  }
+input.movieloungesubmit { width:100px; height:17px; display:inline; padding: 0px 0px 0px 0px; font-size:0.65em;  }
+
+votesubmit { width:100px; height:17px; display:inline; padding: 0px 0px 0px 0px; font-size:0.65em;  }
+
+/* Message Boards */
+#messageboardwrapper {float:left; width:775px; height:auto; min-height:1250px; margin-top:15px; margin-left:15px}
+#topicpostswrapper {float:left; width:775px; height:auto; min-height:1450px; margin-top:15px; margin-left:15px}
+#topicsearch { height:25px; width:775px; float:left}
+#forumsearch {	height:17px;	width:100px;	position: absolute;	top: 256px;	left:222px;	overflow:hidden}
+#forumsearchbutton {	height:17px;	position: absolute;	top: 256px;	left:329px;}
+#forumannouncements {height:100px; border:5px #000 solid; width:765px; margin-bottom:15px; float:left;}
+#messageboardheader { height:40px; width:765px; background-color:#000000; float:left}
+#announcements {height:25px; border-right:1px #fff dotted; width:345px; padding: 10px 0 0 10px; float:left}
+#replies {height:25px; border-right:1px #fff dotted; width:75px; padding: 10px 0 0 10px; float:left}
+#views {height:25px; border-right:1px #fff dotted; width:75px; padding: 10px 0 0 10px; float:left}
+#lastpost {height:25px; width:225px; padding: 10px 0 0 10px; float:left}
+
+#replywrapper {height:auto; border:1px #000 solid; width:773px; float:left; margin-bottom:15px;}
+#reply {width:576px; height:auto; float:left; padding: 0 10px 10px 10px; border-left:1px #666 dotted;}
+#memberdetails {width:155px; height:auto; float:left; padding: 5px 10px 0 10px; }
+
+#membername {width:155px; height:12px; float:left; margin-bottom:10px}
+#posts {width:155px; height:5px; float:left; margin-bottom:5px}
+#joined {width:155px; height:5px; float:left; margin-bottom:5px}
+#location {width:155px; height:5px; float:left; margin-bottom:5px}
+
+
+#topictitle {width:576px; height:12px; float:left; padding: 5px 0 3px 0; border-bottom:dotted #333333 1px}
+#topicdetails {width:576px; height:auto; float:left;}
+#topicreply {width:576px; height:auto; float:left;}
+#quote { width:556px; height:auto; float:left; border:thin #333 dotted; background-color:#CCC; margin: 10px 0 10px 0; padding:10px}
+#quotebutton { background-image:url(images/quotebutton.gif); float:right; background-repeat:no-repeat; width:50px; height:17px; border:none}
+#reply #topictitle a { text-indent:-5000px; }
+
+li.messageboardtopics { height:44px; width:745px; float:left; margin-top:10px; margin-left:10px; border-bottom:#666666 1px dotted}
+
+#messageboardtopic { height:30px; width:345px; float:left; padding: 0 0 0 0; border-right:1px  #666 dotted;}
+#repliestopic {height:30px; width:75px; float:left; border-right:1px #666 dotted; padding: 0 0 0 10px;}
+#viewstopic {height:30px; width:75px; float:left; border-right:1px #666 dotted; padding: 0 0 0 10px;}
+#lastposttopic {height:30px; width:200px; float:left;  padding: 0 0 0 10px;}
+
+#multipages { width:100px; height:18px; float:right; padding-top:12px; overflow:hidden;}
+
+#forumtopics {height:auto; border:5px #000 solid; width:765px; float:left; margin-bottom:15px; background-color: #D7D7D7 }
+#topicposts {height:auto; border:5px #000 solid; width:765px; float:left; margin-bottom:15px; background-color: #D7D7D7 }
+
+p.forumtitles { font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#FFFFFF; display:inline; font-size:.7em; text-transform:uppercase}
+p.topictitles {font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#000; display:inline; font-size:.7em; text-transform:uppercase; margin-bottom:2px}
+p.topicnumber {font-family:Arial, Helvetica, sans-serif; font-weight:normal; color: #666666; display:inline; font-size:.7em; }
+p.topicdetails {font-family:Arial, Helvetica, sans-serif; font-weight:normal; color: #666666; display:inline; font-size:.7em; }
+p.memberdetails {font-family:Arial, Helvetica, sans-serif; font-weight:bolder; color: #666666; display:inline; font-size:.5em; letter-spacing:-.025em }
+p.quote {font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-style:italic; color: #000; display:inline; font-size:.7em;}
+p.messageboardpostbody { font-family:Arial, Helvetica, sans-serif; font-weight:normal; color: #000; display:inline; font-size:.8em; }
+
+.membername {	color: #000;	font-weight: normal; font-weight:bold}
+.membernamereply { font-family:Arial, Helvetica, sans-serif; color: #000; display:inline; font-size:.65em; font-weight:bold}
+.quotedmember {color: #000; font-weight:bold}
+.blacktext {color: #000;}
+
+a.mutlipagenumber { width:9px; height:9px; background-color:#FFFFFF; border: #333333 solid 1px; font-family:Arial, Helvetica, sans-serif; color:#333333; text-decoration:none;  font-size:.5em; display:block; text-align:center; padding-top:2px; text-align:center; float:right;margin-right:5px}
+a.mutlipagenumber:hover {background-color: #006699; color:#fff;}
+a.topictitles {font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#000; text-decoration:none}
+
+#topicmenubottom { height:25px; width:775px; float:left; margin-bottom:15px}
+#postreplybutton {height:25px; width:95px; float:left;}
+#forumpagenumbers{ height:20px; width:auto; min-width:75px; float:right; margin-top:5px}
+a.forummenulinks {font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#333; display:inline; font-size:.7em; text-transform:uppercase; text-decoration:none }
+#gototext { height:20px; width:475px; float:right; margin-right:2px; margin-top:1px}
+#numbers { height:20px; width:auto; float:right;}
+#viewpostoptions {height:25px; width:350px; float:right; margin-left:10px}
+#sortposts { float:left; margin-left:5px; width:auto; height:15px; margin-top:6px}
+#postoption {float:left; margin-left:5px; width:auto;height:15px; margin-top:3px}
+a.mainpagenumber { width:12px; height:12px; background-color:#FFFFFF; border: #333333 solid 1px; font-family:Arial, Helvetica, sans-serif; color:#333333; text-decoration:none;  font-size:.75em; display:block; text-align:top; padding-top:3px; text-align:center; float:left;margin-left:5px}
+a.mainpagenumber:hover {background-color: #006699; color:#fff;}
+
+#forumlinks {height:19px; width:150px; float:left; margin-left:15px; margin-top:6px}
+#forumlinkstop {height:19px; width:150px; float:right; margin-left:15px; text-align:right}
+a.forummenulinkstop {font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#333; display:inline; font-size:.7em; text-transform:uppercase; text-decoration:none; text-align:right }
+#firstpost {height:auto; border:1px #000 solid; width:773px; float:left; margin-bottom:10px; background-color:#CCCCCC; border-bottom:#000000 solid 5px;}
+
+/* End of Message Boards */
+
+/* Old Message Board - here temporarily. */
+
+table.message_head {
+	background-color:	#000000;
+	border-collapse:	collapse;
+	font-family:		Arial, Helvetica, sans-serif;
+	margin:				0px;
+	text-align:			center;
+	width:				100%;
+}
+
+td.message_head_line {
+	background-color:	#000000;
+	height:				4px;
+	padding:			0px;
+}
+
+td.message_head {
+	background-color:	#000000;
+	color:				white;
+	font-size:			small;
+	height:				20px;
+	padding:			0px;
+	vertical-align:		middle;
+}
+
+td.message_discuss_paging {
+	background-color:	white;
+	font-size:			small;
+	padding:			0px;
+}
+
+td.message_body_line {
+	background-color:	#000000;
+	height:				2px;
+	padding:			0px;
+	width:				775px;
+}
+
+table.message_discuss_list {
+	background-color:	#000000;
+	border-collapse:	collapse;
+	margin:				0px;
+	width:				636;
+}
+
+th.message_discuss_list_first {
+	color:				white;
+	font-size:			small;
+	height:				10px;
+	padding:			5px;
+	text-align:			left;
+	vertical-align:		middle;
+	width:				60%;
+}
+
+th.message_discuss_list_other {
+	color:				white;
+	font-size:			x-small;
+	padding:			5px;
+	text-align:			center;
+	vertical-align:		middle;
+}
+
+td.message_discuss_list_first {
+	background-color:	#ffeedd;
+	font-size:			small;
+	padding:			5px;
+	text-align:			left;
+	vertical-align:		middle;
+}
+
+td.message_discuss_list_other {
+	background-color:	#ffeedd;
+	font-size:			x-small;
+	padding:			5px;
+	text-align:			center;
+	vertical-align:		top;
+}
+
+td.message_body {
+	background-color:	#ffeedd;
+	padding:			0px;
+	width:				100%;
+}
+
+table.message_head {
+	background-color:	#000000;
+	border-collapse:	collapse;
+	font-family:		Arial, Verdana, Helvetica, sans-serif;
+	margin:				0px;
+	width:				100%;
+}
+
+td.message_head {
+	background-color:	#000000;
+	color:				white;
+	font-size:			small;
+	height:				20px;
+	padding:			2px;
+	vertical-align:		middle;
+}
+
+td.message_back {
+	background-color:	#000000;
+	color:				white;
+	font-size:			small;
+	padding:			2px;
+	text-align:			right;
+}
+
+td.message_paging {
+	font-size:			small;
+	height:				20px;
+	padding:			2px;
+	vertical-align:		top;
+	width:				30%;
+}
+
+td.message_post {
+	font-size:			small;
+	padding:			2px;
+	text-align:			center;
+	vertical-align:		top;
+}
+
+td.message_first {
+	background-color:	#ffeedd;
+	font-size:			small;
+	padding:			5px;
+	text-align:			left;
+	vertical-align:		middle;
+	line-height:		120%;
+}
+
+td.message_first_head {
+	background-color:	#ffeedd;
+	font-size:			x-small;
+	padding:			0px;
+	text-align:			right;
+	vertical-align:		middle;
+	line-height:		110%;
+}
+
+table.message_list {
+	background-color:	white;
+	border-collapse:	collapse;
+	font-family:		Arial, Verdana, Helvetica, sans-serif;
+	margin:				2px;
+	width:				100%;
+	line-height:		120%;
+}
+
+td.message_list_head {
+	background-color:	white;
+	border-top:			0px solid #ffeedd;
+	border-bottom:		1px solid #ffeedd;
+	border-left:		1px solid #ffeedd;
+	border-right:		1px solid #ffeedd;
+	font-size:			x-small;
+	height:				20px;
+	padding:			4px;
+	vertical-align:		top;
+}
+
+td.message_list {
+	background-color:	white;
+	border-top:			1px solid #ffeedd;
+	border-bottom:		0px solid #ffeedd;
+	border-left:		0px solid #ffeedd;
+	border-right:		0px solid #ffeedd;
+	font-size:			small;
+	padding:			4px;
+	text-align:			left;
+	vertical-align:		top;
+	width:				100%;
+}
+
+table.form_container {
+	background-color:	#ffeedd;
+	border-collapse:	collapse;
+	border-top: 		3px solid #000000;
+	border-bottom:		1px solid #000000;
+	border-left:		1px solid #000000;
+	border-right:		1px solid #000000;
+	font-family:		Arial, Verdana, Helvetica, sans-serif;
+	margin:				0px;
+	text-align:			center;
+	width:				100%;
+}
+
+td.form_container_body {
+	width:				480px;
+}
+
+td.form_head {
+	background-color:	#000000;
+	color:				white;
+	font-size:			10pt;
+    font-weight:		bold;
+	height:				20px;
+	padding:			5px;
+    text-align:			center;
+	vertical-align:		top;
+}
+
+td.form_head_prompt {
+	color:				#330000;
+    font-size:			small;
+	padding:			4px;
+	vertical-align:		top;
+}
+
+td.form_prompt {
+	background-color:	#ffeedd;
+	color:				#330000;
+    font-size:			x-small;
+	padding:			5px;
+    text-align:			left;
+	vertical-align:		top;
+	width:				100%;
+}
+
+table.form_body {
+	border-collapse:	collapse;
+	border:				none;
+	margin:				0px;
+    text-align:			center;
+	width:				100%;
+}
+
+td.form_body {
+	padding:			5px;
+    text-align:			center;
+	vertical-align:		top;
+	width:				100%;
+}
+
+table.form_attachment {
+	border-collapse:	collapse;
+	border:		 		1px solid #000000;
+	margin:				0px;
+	text-align:			left;
+	width:				100%;
+}
+
+td.form_attachment {
+    font-size:			x-small;
+	padding:			3px;
+    text-align:			left;
+	vertical-align:		top;
+	width:				100%;
+}
+
+td.form_body_s {
+    font-size:			small;
+	padding:			5px;
+    text-align:			left;
+	vertical-align:		top;
+	width:				100%;
+}
+
+
+/* End of Old Message Boards */
+
+/*  Tracks CSS START*/
+
+#trackstemplatewrapper { float:left; width:790px; height:auto; min-height:1225px; margin-top:15px; }
+#trackscontentwrapper { float:left; width:445px; height:auto; margin:0px 30px 0px 15px }
+#trackscontent {width:445px; height:auto; float:left; margin-top:1px }
+#leadtrackscontent {width:445px; height:auto; float:left; }
+#tracksrgtcolcontentwrapper {width:300px; height:auto; float:right;} 
+
+#leadtrack {padding: 0px 0px 0px 0px; border-bottom:#333333 dotted 1px; float:left; width:445px; height:30px;}
+#leadtrackcontent {padding: 0px 0px 15px 0px; border-bottom:#333333 dotted 1px; float:left; width:445px; height:auto;}
+#trackoffortnight { float:left; width:445px; height:auto;}
+#leadtrackartist {width:445px; height:auto; float:left; margin-bottom:5px; margin-top:10px;}
+#tracktitle {width:445px; height:25px; float:left; margin-bottom:5px; border-bottom:#333333 dotted 1px}
+#tracksartist {width:445px; height:20px; float:left; display:block; margin-top:10px}
+#tracktext { width:445px; height:auto; float:left;} 
+
+#latesttrackswrapper {width:445px; height:auto; margin-bottom:12px; padding:0 0 0 0; float:left }
+#latesttracksheader{ width:445px; height:35px; background-color:#CCCCCC; border-bottom:#000000 solid 5px; float:left; margin:10px 0px 0px 0px}
+#trackmedia { width:445px; height:auto; float:left; margin-top:5px;}
+
+p.leadtrack { font-family: Georgia; font-size:1.25em; display:inline; color: #006699; line-height:1em; font-style:italic; }
+p.leadarticleheadline { font-family: Georgia; font-size:1.75em; display:inline; color: #006699; text-transform:uppercase; Text-decoration:none; line-height:0.85; margin-bottom:5px; }
+p.leadarticle {font-family: Arial, Helvetica; font-size:0.95em; display:inline; color:#000; line-height:1.3; }
+p.tracktext {font-family: Arial, Helvetica; font-size:0.85em; display:inline; color:#000; vertical-align:top; line-height:1.25em;}
+p.tracktitle { display:inline;font-family: Georgia; font-size:1em; font-style:italic; color: #333333; text-transform:capitalize}
+p.tracklabel {display:inline; font-family: Georgia; font-size:.65em; color: #666666; text-transform:capitalize}
+p.artistname { font-family: Georgia; font-size:1em; display:inline; color: #006699; text-transform:uppercase; line-height:1em; text-decoration:none }
+.latesttracksheaderimage { margin-left:3px; margin-top:5px}
+.topstoryimage {margin-bottom:5px; width:445px; height: 271px; float:left}
+
+/* Tracks CSS END*/
+
+/*  COMMON GALLERY CSS FOR COVERS AND PHOTOS START*/
+#gallerytemplatewrapper {float:left; width:790px; height:auto; min-height:1250px; margin-top:15px; background-color:#FFFFFF }
+#moregallerieswrapper {float:left; width:775px; height:auto; margin:0px 0px 15px 15px;}
+#gallerytitle {padding: 0px 0px 0px 0px; border-bottom:#333333 dotted 1px; float:left; width:775px; height:25px; margin-bottom:15px}
+#latestgalleries { width:445px; height:auto; float:left; margin-right:25px}
+#rightcolumncontent {width:300px; height:auto; float:right; margin-top:10px}
+#latestgalleriesheader { width:445px; height:35px; background-color:#CCCCCC; border-bottom:#000000 solid 5px; float:left; margin-bottom:15px;}
+#latestgallery {width:445px; float:left; margin-bottom:10px;}
+#lastlatestgallery {width:445px; height:105px; float:left; margin-bottom:10px; border-bottom:#333 dotted 1px; padding-bottom:10px}
+#latestgallerypic {width:90px; height:95px; float:left; margin-right:10px;}
+#latestgallerycontent {width:345px; float:left;}
+#clickformore {width:373px; height:28px; float:right; margin-top:5px; padding-top:5px;}
+
+#galleryarrows {width:62px; height:28; float:left; margin: 5px 5px 5px 0px}
+#galleryarrows a {text-decoration:none; display:block; text-indent:-5000px;}
+
+#latestgalleryarrows {width:62px; height:28; float:left; margin-top:5px;margin-bottom:5px}
+#latestgalleryarrows a {text-decoration:none; display:block; text-indent:-5000px;}
+
+a#galleryarrowleft {
+background-image: url(/images/redesign/photos/arrowlft.gif); 
+background-repeat:no-repeat; 
+background-position: 0 0px;
+height:28px; width:28px;
+float:left;
+margin-right:5px
+}
+#galleryarrows #galleryarrowleft:hover {background-position: 0 -28px;}
+
+a#latestgalleryarrowleft {
+background-image: url(/images/redesign/photos/arrowlft.gif); 
+background-repeat:no-repeat; 
+background-position: 0 0px;
+height:28px; width:28px;
+float:left;
+margin-right:5px
+}
+#latestgalleryarrows #latestgalleryarrowleft:hover {background-position: 0 -28px;}
+
+a#galleryarrowright {
+background-image: url(/images/redesign/photos/arrowrgt.gif); 
+background-repeat:no-repeat; 
+background-position: 0 -28px;
+height:28px; width:28px;
+float:left;
+}
+#galleryarrows #galleryarrowright:hover {background-position: 0 0px;}
+
+a#latestgalleryarrowright {
+background-image: url(/images/redesign/photos/arrowrgt.gif); 
+background-repeat:no-repeat; 
+background-position: 0 -28px;
+height:28px; width:28px;
+float:left;
+}
+#latestgalleryarrows #latestgalleryarrowright:hover {background-position: 0 0px;}
+
+.gallerypic { height:363px;}
+.latestgallerypic { height:90px; width:90px; outline:none; text-decoration:none; -moz-outline-style: none; border: none }
+.latestgalleryheaderimage { margin-left:3px; margin-top:5px}
+
+p.gallerytitle { font-family: Georgia; font-size:1.25em; display:inline; color: #006699; line-height:1em; font-style:italic; }
+p.description { font-family: Georgia; font-size:1em; display:inline; color: #000; line-height:1.15em;}
+p.copyright {font-family: Arial, Helvetica; font-size:0.7em; display:inline; color:#333; }
+p.gallerybody {font-family: Arial, Helvetica; font-size:0.8em; display:inline; color:#000; line-height:1.25em;}
+p.gallerynumber {font-family: Georgia; font-size:1.25em; display:inline; color: #006699; font-style:italic;}
+p.dateposted { font-family: Georgia; font-size:.75em; display:inline; color: #006699; line-height:1em; font-style:italic; }
+
+p.latestdateposted { font-family: Georgia; font-size:.75em; display:inline; color: #006699; line-height:1em; font-style:italic; margin-top: 5px; }
+
+a.galleryheadlinelink {font-family: Georgia; font-size:1.1em; display:inline; font-weight:normal;color: #006699; text-transform:uppercase; text-decoration:none; line-height:1.15em;}
+a.clickformore {font-family: Georgia; font-size:1em; display:inline; font-weight:normal;color: #666666; text-transform: capitalize; text-decoration:none; line-height:1.15em; font-style:italic}
+
+/*  COMMON GALLERY CSS FOR COVERS AND PHOTOS END*/
+
+/*  PHOTO GALLERY CSS START*/
+
+#gallerycontentwrapper { float:left; width:775px; height:auto; margin:0px 0px 0px 15px; border-bottom:#000000 solid 5px; }
+#galleryphotos { width:545px; height:auto; float:left; margin:0px 15px 15px 0px; text-align:justify}
+#gallerymeta { width:215px; height:auto; float:left}
+#gallerydescription {width:215px; height:auto; float:left;}
+#gallerycopyright {width:215px; height:auto; float:left; margin-top:5px;margin-bottom:5px}
+#gallerypicnumber {width:145px; height:28px; float:left; margin-top:5px; padding-top:3px;}
+#sharethis { position:absolute; left:674px; top:450px}
+
+#buybutton {width:215px; height:30px; float:left; margin-top:5px;}
+#buybutton a {text-decoration:none; display:block; text-indent:-5000px;}
+
+a#buybutton {
+background-image: url(/images/redesign/photos/buybutton.gif); 
+background-repeat:no-repeat; 
+background-position: 0 0px;
+height:30px; width:186px;
+float:left;
+}
+#buybutton #buybutton:hover {background-position: 0 -30px;}
+
+/* PHOTO GALLERY CSS END*/
+
+/* COVERS GALLERY CSS START*/
+
+#coversgallerycontentwrapper { float:left; width:775px; height:auto; margin:0px 0px 0px 15px; border-bottom:#000000 solid 5px; }
+#coversgallery { width:445px; height:auto; float:left; margin:0px 15px 15px 0px;}
+#coversmeta { width:300px; height:auto; float:left}
+#coverdescription {width:300px; height:auto; float:left;}
+#coverscopyright {width:300px; height:auto; float:left; margin-top:5px;margin-bottom:5px}
+#coverpicnumber {width:233px; height:28px; float:left; margin-top:5px; padding-top:3px;}
+#sharethiscovers { position:absolute; left:576px; top:465px}
+
+#buycoverbutton {width:300px; height:30px; float:left; margin-top:5px;}
+#buycoverbutton a {text-decoration:none; display:block; text-indent:-5000px;}
+
+a#buycoverbutton {
+background-image: url(/images/redesign/photos/buycoverbutton.gif); 
+background-repeat:no-repeat; 
+background-position: 0 0px;
+height:30px; width:186px;
+float:left;
+}
+#buycoverbutton #buycoverbutton:hover {background-position: 0 -30px;}
+
+.coverspic { height:600px}
+
+/* COVERS GALLERY CSS END*/
+
+/* COMPETITIONS - START */
+
+#competitionsubhead {width:445px; height:auto; float:left;margin-bottom:5px}
+p.competitionsubhead { font-family: Georgia; font-size:1em; display:inline; color: #333333; line-height:1em; }
+
+#question {width:445px; height:auto; float:left; margin-bottom:5px}
+#answer {width:445px; height:25; float:left; margin-bottom:}
+#entrycontainer {width:445px; height:auto; float:left; margin-bottom:15px}
+#formdetail {width:445px; height:20px; float:left; margin-bottom:3px; line-height:1.15em}
+#fillformmessage {width:445px; height:25px; float:left; margin-bottom:10px}
+#formfields {width:445px; height:20px; float:left; margin-bottom:10px}
+#enterbutton {width:445px; height:20px; float:left; margin-bottom:10px}
+/*
+.competitionimage {margin-bottom:5px; width:445px; height: 408px}
+*/
+.competitionimage {margin-bottom:5px; }
+p.entrydetails {font-family: Arial, Helvetica; font-size:0.80em; color:#000; display:inline}
+p.formmessage {font-family: Arial, Helvetica; font-size:0.75em; color:#000; display:inline}
+/*
+input.competitionanswer {width:445px; height:20px; display:inline; padding: 0px 0px 0px 0px; font-size:0.65em;}
+input.name {width:100px; height:20px; display:inline; padding: 0px 0px 0px 0px; font-size:0.65em;}
+input.email {width:210px; height:20px; display:inline; padding: 0px 0px 0px 0px; font-size:0.65em;}
+input.phone {width:210px; height:20px; display:inline; padding: 0px 0px 0px 0px; font-size:0.65em;}
+*/
+input.competitionanswer {width:445px; height:20px; display:inline; padding: 0px 0px 0px 0px; font-size:1em;}
+input.name {width:100px; height:20px; display:inline; padding: 0px 0px 0px 0px; font-size:1em;}
+input.email {width:210px; height:20px; display:inline; padding: 0px 0px 0px 0px; font-size:1em;}
+input.phone {width:210px; height:20px; display:inline; padding: 0px 0px 0px 0px; font-size:1em;}
+
+/* COMPETITIONS - END */
+
+/* Thank You Pages - START. */
+
+#thankyouwrapper { float:left; width:775px; height:700px; min-height:700px; margin-top:15px; margin-left:15px; background-color:#FFFFFF; padding-bottom:15px; }
+#thankyoutext {float:left; width:775px; height:auto;}
+#thankyouisland { width:300px; height:250px; float:right; margin-left:15px;}
+#thankyoutitle { width:460px; float:left; height:25px; margin-bottom:10px}
+#thankyoumessage {width:460px; float:left; height:auto; margin-bottom:10px}
+#share { width:300px; height:40px; margin-top:15px; margin-bottom:15px;}
+p.thankyoutitle { font-family: Georgia, "Times New Roman", Times, serif ; font-size:1.2em; line-height:1.15em; letter-spacing:.1em; color: #0066CC; display:inline; text-transform:uppercase}
+p.thankyoubody { font-family:Arial, Helvetica, sans-serif; font-size:.85em; display:inline; line-height:1.25em}
+
+/* Thank You Pages - END */
+
+.webExclusiveHeadline {
+	font-family:		Arial, Verdana, Helvetica, sans-serif;
+	font-size:			11px;
+	font-weight:		bold;
+	text-align:			left;
+	color:				black;
+}
+
+#votetemplatewrapper { float:left; width:790px; height:1700px; margin-top:15px; }
+#votecontentwrapper { float:left; width:770px; height:auto; margin:0px 30px 0px 15px }
+
+
+/* What's On Styles */
+
+#whatsontemplatewrapper {float:left; width:790px; height:auto; min-height:1250px; margin-top:15px; background-color:#FFFFFF }
+// #whatsonpreviewswrapper { float:left; width:776px; height:35px; margin:0px 0px 0px 15px; border-bottom:#000000 solid 5px; }
+#whatsonpreviewswrapper { float:left; width:776px; height:325px !important; margin:0px 0px 0px 15px; border-bottom:#000000 solid 5px; margin-left: 0px !important;}
+#whatsonpreviewswrapper2 { float:left; width:776px; height:275px !important; margin:0px 0px 0px 15px; border-bottom:#000000 solid 5px; }
+#upcomingeventswrapper {float:left; width:775px; height:auto; margin:0px 0px 15px 15px;}
+#whatsonlistwrapper { float:left; width:776px; margin:0px 0px 0px 15px; border-bottom:#000000 solid 5px; margin-left: 0px !important;}
+
+#whatsonmultimediaposts {width:500px !important; height:auto;  }
+#whatsonmultimediapostleft {width:90px; height:130px; float:left; margin-right:5px !important; margin-bottom:5px;!important;}
+#whatsonmultimediapostcenter {width:90px; height:130px; float:left; margin-right:5px !important; margin-bottom:5px;!important;}
+#whatsonmultimediapostright {width:90px; height:130px; float:left; margin-bottom:5px !important; !important;}
+
+
+#previewtitle {padding: 0px 0px 0px 0px; border-bottom:#333333 dotted 1px; float:left; width:775px; height:25px; margin-bottom:15px}
+#previewtitle2 {padding: 10px 0px 0px 0px; border-bottom:#333333 dotted 1px; float:left; width:775px; height:25px; margin-bottom:15px}
+
+#gigpreviewfirst { width:184px; height:270px; float:left; margin:0px 4px 15px 0px;}
+// #gigpreview { width:184px; height:270px; float:left; margin:0px 4px 15px 0px; border-left:#333333 dotted 1px; padding-left:8px}
+#gigpreview { width:184px; height:200px !important; float:left; margin:0px 4px 15px 0px; border-left:#333333 dotted 1px; padding-left:8px}
+// #gigpreviewlast { width:184px; height:270px; float:left; margin:0px 0px 15px 0px; border-left:#333333 dotted 1px; padding-left:8px}
+#gigpreviewlast { width:184px; height:200px!important; float:left; margin:0px 0px 15px 0px; border-left:#333333 dotted 1px; padding-left:8px}
+#gigpreview2 { width:184px; height:270px; float:right; margin:0px 4px 15px 0px; border-left:#333333 dotted 1px; padding-left:8px; margin-top: -190px !important; padding-top: 55px !important;}
+
+#previewpic {width:180px; height:110px; float:left;}
+#previewartist {width:180px; height:auto; float:left; margin:5px 0px 0px 0px}
+#previewvenue {width:180px; height:auto; float:left; margin:2px 0px 5px 0px}
+#previewcopy { width:180px; height:130px; float:left}
+
+#upcomingevents { width:775px; height:auto; float:left; margin-right:25px}
+#upcomingeventsheader { width:445px; height:35px; background-color:#CCCCCC; border-bottom:#000000 solid 5px; float:left; margin-bottom:15px;}
+#gigsearchbar { width:465px; height:25px; float:left;}
+#gigislandad { width:310px; height:250px; float:right; }
+// #giglistings {width:775px; height:auto; float:left; margin-top:15px; padding:10px 0px 15px 0px; border-top:#333333 dotted 1px; border-bottom:#000 solid 5px; }
+#giglistings {width:775px; height:auto; float:left; margin-top:15px; padding:10px 0px 15px 0px; border-top:#333333 dotted 1px; border-bottom:#000 solid 5px; }
+// #giglistings {width:470px!important; height:auto; float:left; margin-top:15px; padding:10px 30px 15px 0px; border-top:#333333 dotted 1px; border-bottom:#000 solid 5px;}
+
+#eventcolumn {height:auto; width:210px; margin-right:10px; float:left; border-right:#333333 dotted 1px; padding-right:8px}
+#datecolumn {height:auto; width:160px; float:left; font-family: Arial, Helvetica; }
+#venuecolumn {height:auto; width:100px; margin-left:10px; float:left; border-left:#333333 dotted 1px; padding-left:8px}
+
+#nextandpreviouspages {float: left;}
+.previousgiglisting {float: left; font-family: Arial, Helvetica; font-weight:bold; font-size:14px; display:inline; color:#006699; line-height:1.2em; text-decoration:underline}
+.nextgiglisting {float:right; text-align: right; padding-left: 370px;font-family: Arial, Helvetica; font-weight:bold; font-size:14px; display:inline; color:#006699; line-height:1.2em; text-decoration:underline }
+
+.previewpic {width:180px; height:110px;}
+.upcomingeventsheaderimage { margin-left:3px; margin-top:5px}
+
+p.previewtitle { font-family: Georgia; font-size:1.25em; display:inline; color: #006699; line-height:1em; font-style:italic; }
+p.previewbody {font-family: Arial, Helvetica; font-size:0.75em; display:inline; color:#000; line-height:1.25em;}
+p.gigdetails { font-family: Georgia; font-size:.75em; display:inline; color: #333; line-height:1em; font-style:italic; }
+
+/*
+a.eventlisting {font-family: Arial, Helvetica; font-size:0.7em; display:inline; color:#000; line-height:1.2em; text-decoration:none}
+a.eventlistingname {font-family: Arial, Helvetica; font-weight:bold; font-size:0.7em; display:inline; color:#006699; line-height:1.2em; text-decoration:none}
+*/
+a.eventlisting {font-family: Arial, Helvetica; font-size:1em; display:inline; color:#000; line-height:1.2em; text-decoration:underline}
+a.eventlistingname {font-family: Arial, Helvetica; font-weight:bold; font-size:1em; display:inline; color:#006699; line-height:1.2em; text-decoration:underline}
+a.previewartist {font-family: Georgia; font-size:1em; display:inline; font-weight:normal;color: #006699; text-transform:uppercase; text-decoration:none; line-height:1.15em;}
+
+/* End of What's On Styles */
+
+
+table.article {
+	border:				0px;
+	width:				608;
+	padding:			0px;
+}
+
+td.articleTitle {
+	font-family:		Arial, Verdana, Helvetica, sans-serif;
+	color:				003366;
+	font-weight:		bold;
+	font-size:			x-large;
+}
+
+td.articleDate {
+	font-family:		Arial, Helvetica, sans-serif;
+	color:				#333333;
+	font-style:			italic;
+	font-size:			small;
+}
+
+.articleOpening {
+	font-family:		Arial, Helvetica, sans-serif;
+	color:				#003366;
+	font-weight:		bold;
+	font-size:			medium;
+}
+
+
+.relatedGroupingType
+{
+	font-family:		Helvetica, Arial, verdana, sans-serif;
+	color:				#999966;
+	font-size:			10pt;
+	font-weight:		bold;
+}
+
+.relatedGroupingHead
+{
+	font-family:		Helvetica, Arial, verdana, sans-serif;
+	color:				#000000;
+	font-size:			9pt;
+	font-weight:		bold;
+	text-decoration:	none;
+}
+
+.relatedGroupingSubHead
+{
+	font-family:		Helvetica, Arial, verdana, sans-serif;
+	color:				#000000;
+	font-size:			9pt;
+	text-decoration:	none;
+}
+
+
+.relatedGroupingTextDark
+{
+	font-family:		Arial, verdana, Helvetica, sans-serif;
+	color:				#000000;
+	font-size:			7pt;
+}
+
+a.relatedGroupingLink
+{
+	font-size:			xx-small;
+	font-family:		Arial, Verdana, Helvetica, sans-serif;
+	color:				#ffffff; 
+	text-decoration:	none;
+}
+
+a.relatedGroupingLinkDark
+{
+	font-size:			xx-small;
+	font-family:		Arial, Verdana, Helvetica, sans-serif;
+	color:				#000000; 
+	text-decoration:	none;
+}
+
+.relatedArticleLink
+{
+	font-family:		Helvetica, Arial, verdana, sans-serif;
+	color:				#666666;
+	font-size:			9pt;
+	text-decoration:	none;
+}
+
+#ad300x600 { width:300px; height:600px; }

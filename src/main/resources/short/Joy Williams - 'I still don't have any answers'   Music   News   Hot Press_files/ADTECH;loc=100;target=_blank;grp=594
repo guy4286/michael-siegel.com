@@ -1,0 +1,8 @@
+document.write("<SCR"+"IPT language='JavaScript1.1' SRC=\"http://ad-ace.doubleclick.net/adj/N3643.151086.8195278683521/B7915652;sz=728x90;click=http%3A//adserver.adtech.de/adlink%2F949%2F2112208%2F0%2F225%2FAdId%3D9620898%3BBnId%3D3%3Bitime%3D719360474%3Blink%3D;ord=719360474?\">\n");
+document.write("</SCR"+"IPT>\n");
+document.write("<NOSCRIPT>\n");
+document.write("<A HREF=\"http://adserver.adtech.de/adlink/949/2112208/0/225/AdId=9620898;BnId=3;itime=719360474;nodecode=yes;link=http://ad-ace.doubleclick.net/jump/N3643.151086.8195278683521/B7915652;sz=728x90;ord=719360474?\">\n");
+document.write("<IMG SRC=\"http://ad-ace.doubleclick.net/ad/N3643.151086.8195278683521/B7915652;sz=728x90;ord=719360474?\" BORDER=0 WIDTH=728 HEIGHT=90 ALT=\"Advertisement\"></A>\n");
+document.write("</NOSCRIPT>\n");
+
+

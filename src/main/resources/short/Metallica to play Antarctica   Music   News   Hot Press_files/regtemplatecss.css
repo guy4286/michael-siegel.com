@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*  REG CONTENT CSS START */
+/*
+#regtemplatewrapper { float:left; width:700px; height: 1800px; margin-top:15px; }
+#regcontentwrapper { float:left; width:700px; height: 1800px; margin:0px 30px 0px 15px }
+*/
+
+#regtemplatewrapper { float:left; width:790px; height: auto; margin-top:15px; }
+#regcontentwrapper { float:left; width:790px; height: auto; margin-top:15px }
+

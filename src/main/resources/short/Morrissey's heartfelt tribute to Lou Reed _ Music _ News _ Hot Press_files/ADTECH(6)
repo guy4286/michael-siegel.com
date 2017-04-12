@@ -1,0 +1,6 @@
+document.write("<scr"+"ipt src=\"http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=13700856&PluID=0&w=160&h=600&ncu=$$http://adserver.adtech.de/adlink/949/2112209/0/154/AdId=12756154;BnId=2;itime=550252817;nodecode=yes;link=$$&ord=_adtime_\"></scr"+"ipt>\n");
+document.write("<noscript>\n");
+document.write("<a href=\"http://adserver.adtech.de/adlink/949/2112209/0/154/AdId=12756154;BnId=2;itime=550252817;nodecode=yes;link=http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=brd&FlightID=13700856&Page=&PluID=0&Pos=922888710\" target=\"_blank\"><img src=\"http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=bsr&FlightID=13700856&Page=&PluID=0&Pos=922888710\" border=0 width=160 height=600></a>\n");
+document.write("</noscript>\n");
+
+

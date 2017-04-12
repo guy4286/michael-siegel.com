@@ -1,0 +1,5 @@
+document.write('<a href="http://adserver.adtech.de/?adlink/949/2112208/0/225/AdId=12788736;BnId=1;itime=550702309;" target="_blank"><img src="http://aka-cdn-ns.adtech.de/images/0/Ad12788736St1Sz225Sq108298339V0Id1.png" border="0" alt="Click here..." width="728" height="90"/></a>');
+  
+document.write('<a href="http://adserver.adtech.de/?adlink/949/5197948/0/16/AdId=-3;BnId=0;itime=550702310;" target="_blank"><img src="http://aka-cdn-ns.adtech.de/images/Default_Size_16_1x1.gif" border="0" alt="AdTech Ad" width="1" height="1"/></a>');
+  
+ADTECH_getNumberOfAddonBanners = function() { return 0; }
